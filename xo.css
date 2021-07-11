@@ -1,0 +1,36 @@
+#main {
+	margin: 100px auto;
+	width: 400px;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.block {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 100px;
+	font-size: 36px;
+}
+.block:hover {
+	cursor: pointer;
+	background-color: grey;
+	
+}
+#h1 {
+	text-align: center;
+}
+.massage {
+	border: 1px solid black;
+	position : absolute;
+	top: 7px;
+	right: 7px;
+	width: 150px;
+	height: 120px;
+}
+p {
+	padding: 0px 9px;
+}
